@@ -1,0 +1,37 @@
+
+menu.cpu=Processor
+
+
+
+##############################################################
+
+smart7688.name=LinkIt Smart 7688 3.3V/8MHz
+smart7688.build.board=AVR_LINKITSMART7688
+smart7688.build.vid.0=0x0E8D
+smart7688.build.pid.0=0x0013
+smart7688.build.vid.1=0x0E8D
+smart7688.build.pid.1=0x0014
+
+smart7688.upload.tool=avrdude
+smart7688.upload.protocol=avr109
+smart7688.upload.maximum_size=28672
+smart7688.upload.speed=57600
+smart7688.upload.disable_flushing=true
+smart7688.upload.use_1200bps_touch=true
+smart7688.upload.wait_for_upload_port=true
+
+smart7688.bootloader.low_fuses=0xff
+smart7688.bootloader.high_fuses=0xd8
+smart7688.bootloader.extended_fuses=0xfe
+smart7688.bootloader.file=caterina/Caterina-smart7688.hex
+smart7688.bootloader.unlock_bits=0x3F
+smart7688.bootloader.lock_bits=0x2F
+
+smart7688.build.mcu=atmega32u4
+smart7688.build.f_cpu=8000000L
+smart7688.build.vid=0x0E8D
+smart7688.build.pid=0x0014
+smart7688.build.usb_product="MediaTek LinkIt Smart 7688"
+smart7688.build.core=arduino:arduino
+smart7688.build.variant=smart7688
+smart7688.build.extra_flags={build.usb_flags}
