@@ -90,12 +90,12 @@ extern const uint8_t PROGMEM analog_pin_to_channel_PGM[];
 // D12		A11		PD6					T1/#OC4D/ADC9
 // D13#				PC7		PWM10		CLK0/OC4A
 //
-// A0		D18		PF7					ADC7
-// A1		D19		PF6					ADC6
-// A2		D20 	PF5					ADC5
-// A3		D21 	PF4					ADC4
-// A4		D22		PF1					ADC1
-// A5		D23 	PF0					ADC0
+// A0		D18		PF0					ADC0
+// A1		D19		PF1					ADC1
+// A2		D20 	PF4					ADC4
+// A3		D21 	PF5					ADC5
+// A4		D22		PF6					ADC6
+// A5		D23 	PF7					ADC7
 //
 // New pins D14..D17 to map SPI port to digital pins
 //
@@ -163,12 +163,12 @@ const uint8_t PROGMEM digital_pin_to_port_PGM[30] = {
 	PB,	// D16 - MOSI - PB2
 	PB,	// D17 - SS - PB0
 	
-	PF,	// D18 - A0 - PF7
-	PF, // D19 - A1 - PF6
-	PF, // D20 - A2 - PF5
-	PF, // D21 - A3 - PF4
-	PF, // D22 - A4 - PF1
-	PF, // D23 - A5 - PF0
+	PF,	// D18 - A0 - PF0
+	PF, // D19 - A1 - PF1
+	PF, // D20 - A2 - PF4
+	PF, // D21 - A3 - PF5
+	PF, // D22 - A4 - PF6
+	PF, // D23 - A5 - PF7
 	
 	PD, // D24 / D4 - A6 - PD4
 	PD, // D25 / D6 - A7 - PD7
@@ -200,12 +200,12 @@ const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[30] = {
 	_BV(2),	// D16 - MOSI - PB2
 	_BV(0),	// D17 - SS - PB0
 	
-	_BV(7),	// D18 - A0 - PF7
-	_BV(6), // D19 - A1 - PF6
-	_BV(5), // D20 - A2 - PF5
-	_BV(4), // D21 - A3 - PF4
-	_BV(1), // D22 - A4 - PF1
-	_BV(0), // D23 - A5 - PF0
+	_BV(0),	// D18 - A0 - PF0
+	_BV(1), // D19 - A1 - PF1
+	_BV(4), // D20 - A2 - PF4
+	_BV(5), // D21 - A3 - PF5
+	_BV(6), // D22 - A4 - PF6
+	_BV(7), // D23 - A5 - PF7
 	
 	_BV(4), // D24 / D4 - A6 - PD4
 	_BV(7), // D25 / D6 - A7 - PD7
@@ -238,12 +238,12 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[16] = {
 };
 
 const uint8_t PROGMEM analog_pin_to_channel_PGM[12] = {
-	7,	// A0				PF7					ADC7
-	6,	// A1				PF6					ADC6	
-	5,	// A2				PF5					ADC5	
-	4,	// A3				PF4					ADC4
-	1,	// A4				PF1					ADC1	
-	0,	// A5				PF0					ADC0	
+	0,	// A0				PF0					ADC0
+	1,	// A1				PF1					ADC1	
+	4,	// A2				PF4					ADC4	
+	5,	// A3				PF5					ADC5
+	6,	// A4				PF6					ADC6	
+	7,	// A5				PF7					ADC7	
 	8,	// A6		D4		PD4					ADC8
 	10,	// A7		D6		PD7					ADC10
 	11,	// A8		D8		PB4					ADC11
