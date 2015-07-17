@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "name": "LinkIt",
+      "maintainer": "Seeed Studio and MediaTek Labs",
+      "websiteURL": "http://labs.mediatek.com/linkitone",
+      "help": {
+        "online": "http://labs.mediatek.com/forums/forums/show/11.page"
+      },
+      "platforms":[
+            {
+               "name":"MediaTek LinkIt Smart Boards",
+               "architecture":"avr",
+               "version": "$sdk_version",
+               "category":"Contributed",
+               "url":"http://pc14060199.mediatek.inc/$sdk_zip_name",
+               "archiveFileName": "$sdk_zip_name",
+               "checksum": "SHA-256:$sdk_zip_checksum",
+               "size": "$sdk_zip_size",
+               "boards":[
+                  { "name":"LinkIt Smart 7688" },
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+      "tools":[]
+    }
+  ]
+}
