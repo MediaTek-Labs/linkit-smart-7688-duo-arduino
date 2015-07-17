@@ -13,7 +13,7 @@
                "architecture":"avr",
                "version": "$sdk_version",
                "category":"Contributed",
-               "url":"http://pc14060199.mediatek.inc/$sdk_zip_name",
+               "url":"http://pc14060199.mediatek.inc:8080/$sdk_zip_name",
                "archiveFileName": "$sdk_zip_name",
                "checksum": "SHA-256:$sdk_zip_checksum",
                "size": "$sdk_zip_size",
