@@ -48,8 +48,8 @@
 
 # USB vendor ID (VID)
 # official Arduino LLC VID = 0x2341
-# SparkFun VID = 0x1B4F
-VID = 0x1B4F
+# MTK VID = 0x0E8D
+VID = 0x0E8D
 
 # USB product ID (PID)
 # official Leonardo PID = 0x0036
