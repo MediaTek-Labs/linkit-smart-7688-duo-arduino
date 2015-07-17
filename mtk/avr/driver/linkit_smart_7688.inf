@@ -19,7 +19,7 @@ DriverVer=10/27/2014,5.1.2600.0
 DefaultDestDir=12
 
 [DefaultInstall]
-CopyINF=sparkfun.inf
+CopyINF=linkit_smart_7688.inf
 
 ;------------------------------------------------------------------------------
 ;  Windows 2000/XP/Vista-32bit Sections
@@ -88,34 +88,16 @@ ServiceBinary=%12%\%DRIVERFILENAME%.sys
 [SourceDisksFiles]
 [SourceDisksNames]
 [DeviceList]
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9205
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9206&MI_00
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9203
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9204&MI_00
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0002
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0002&MI_00
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0003
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0003&MI_00
-%SparkFun.Makey.Makey%=DriverInstall, USB\VID_1B4F&PID_2B74
-%SparkFun.Makey.Makey%=DriverInstall, USB\VID_1B4F&PID_2B75&MI_00
-%SparkFun.Fio.V3%=DriverInstall, USB\VID_1B4F&PID_F100
-%SparkFun.Fio.V3%=DriverInstall, USB\VID_1B4F&PID_F101&MI_00
-
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0013
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0013&MI_00
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0013&MI_01
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0014&MI_00
 
 [DeviceList.NTamd64]
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9205
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9206&MI_00
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9203
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_9204&MI_00
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0002
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0002&MI_00
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0003
-%SparkFun.Pro.Micro%=DriverInstall, USB\VID_1B4F&PID_0003&MI_00
-%SparkFun.Makey.Makey%=DriverInstall, USB\VID_1B4F&PID_2B74
-%SparkFun.Makey.Makey%=DriverInstall, USB\VID_1B4F&PID_2B75&MI_00
-%SparkFun.Fio.V3%=DriverInstall, USB\VID_1B4F&PID_F100
-%SparkFun.Fio.V3%=DriverInstall, USB\VID_1B4F&PID_F101&MI_00
-
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0013
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0013&MI_00
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0013&MI_01
+%MediaTek.Smart.7688%=DriverInstall, USB\VID_0E8D&PID_0014&MI_00
 
 ;------------------------------------------------------------------------------
 ;  String Definitions
@@ -123,11 +105,9 @@ ServiceBinary=%12%\%DRIVERFILENAME%.sys
 ;Modify these strings to customize your device
 ;------------------------------------------------------------------------------
 [Strings]
-MFGFILENAME="sparkfun"
+MFGFILENAME="linkit_smart_7688"
 DRIVERFILENAME ="usbser"
-MFGNAME="SparkFun Electronics"
-INSTDISK="SparkFun Driver Installer"
-SparkFun.Pro.Micro="SparkFun Pro Micro"
-SparkFun.Makey.Makey="SparkFun Makey Makey"
-SparkFun.Fio.V3="SparkFun Fio V3"
+MFGNAME="MediaTek"
+INSTDISK="MediaTek Smart 7688 Driver Installer"
+MediaTek.Smart.7688="MediaTek LinkIt Smart 7688"
 SERVICE="USB RS-232 Emulation Driver"
