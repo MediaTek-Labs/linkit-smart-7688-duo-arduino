@@ -18,7 +18,7 @@
                "checksum": "SHA-256:$sdk_zip_checksum",
                "size": "$sdk_zip_size",
                "boards":[
-                  { "name":"LinkIt Smart 7688" },
+                  { "name":"LinkIt Smart 7688" }
                ],
                "toolsDependencies":[
                   {
