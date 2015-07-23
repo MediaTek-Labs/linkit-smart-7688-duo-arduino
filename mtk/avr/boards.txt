@@ -5,12 +5,11 @@ menu.cpu=Processor
 
 ##############################################################
 
-smart7688.name=LinkIt Smart 7688 3.3V/8MHz
-smart7688.build.board=AVR_LINKITSMART7688
-smart7688.build.vid.0=0x0E8D
-smart7688.build.pid.0=0x0013
-smart7688.build.vid.1=0x0E8D
-smart7688.build.pid.1=0x0014
+smart7688.name=LinkIt Smart 7688
+smart7688.vid.0=0x0E8D
+smart7688.pid.0=0x0013
+smart7688.vid.1=0x0E8D
+smart7688.pid.1=0x0014
 
 smart7688.upload.tool=avrdude
 smart7688.upload.protocol=avr109
