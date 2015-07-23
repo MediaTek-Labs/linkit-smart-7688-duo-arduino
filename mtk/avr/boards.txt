@@ -26,6 +26,7 @@ smart7688.bootloader.file=caterina/Caterina-smart7688.hex
 smart7688.bootloader.unlock_bits=0x3F
 smart7688.bootloader.lock_bits=0x2F
 
+smart7688.build.board=AVR_LINKITSMART7688
 smart7688.build.mcu=atmega32u4
 smart7688.build.f_cpu=8000000L
 smart7688.build.vid=0x0E8D
