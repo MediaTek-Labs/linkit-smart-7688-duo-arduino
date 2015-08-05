@@ -19,6 +19,7 @@ smart7688.upload.disable_flushing=true
 smart7688.upload.use_1200bps_touch=true
 smart7688.upload.wait_for_upload_port=true
 
+smart7688.bootloader.tool=avrdude
 smart7688.bootloader.low_fuses=0xff
 smart7688.bootloader.high_fuses=0xd8
 smart7688.bootloader.extended_fuses=0xfe
