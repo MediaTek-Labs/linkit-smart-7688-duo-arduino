@@ -7,9 +7,9 @@ menu.cpu=Processor
 
 smart7688.name=LinkIt Smart 7688
 smart7688.vid.0=0x0E8D
-smart7688.pid.0=0x0013
+smart7688.pid.0=0xAB00
 smart7688.vid.1=0x0E8D
-smart7688.pid.1=0x0014
+smart7688.pid.1=0xAB01
 
 smart7688.upload.tool=avrdude
 smart7688.upload.protocol=avr109
@@ -31,7 +31,7 @@ smart7688.build.board=AVR_LINKITSMART7688
 smart7688.build.mcu=atmega32u4
 smart7688.build.f_cpu=8000000L
 smart7688.build.vid=0x0E8D
-smart7688.build.pid=0x0014
+smart7688.build.pid=0xAB01
 smart7688.build.usb_product="LinkIt Smart 7688"
 smart7688.build.usb_manufacturer="MediaTek Labs"
 smart7688.build.core=arduino:arduino

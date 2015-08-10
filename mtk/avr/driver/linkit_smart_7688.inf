@@ -88,16 +88,12 @@ ServiceBinary=%12%\%DRIVERFILENAME%.sys
 [SourceDisksFiles]
 [SourceDisksNames]
 [DeviceList]
-%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_0013
-%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_0013&MI_00
-%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_0013&MI_01
-%Smart.7688.sketch%=DriverInstall, USB\VID_0E8D&PID_0014&MI_00
+%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_AB00
+%Smart.7688.sketch%=DriverInstall, USB\VID_0E8D&PID_AB01&MI_00
 
 [DeviceList.NTamd64]
-%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_0013
-%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_0013&MI_00
-%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_0013&MI_01
-%Smart.7688.sketch%=DriverInstall, USB\VID_0E8D&PID_0014&MI_00
+%Smart.7688.bootloader%=DriverInstall, USB\VID_0E8D&PID_AB00
+%Smart.7688.sketch%=DriverInstall, USB\VID_0E8D&PID_AB01&MI_00
 
 ;------------------------------------------------------------------------------
 ;  String Definitions
