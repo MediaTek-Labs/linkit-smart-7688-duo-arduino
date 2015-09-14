@@ -20,7 +20,7 @@ def main():
                  sdk_zip_name=arg_sdk_zip_name,
                  sdk_zip_checksum=hashlib.sha256(open(sdk_zip_path, "rb").read()).hexdigest(),
                  sdk_zip_size=os.stat(sdk_zip_path).st_size)
-    f = open("out\\package_linkit_index.json", "wb")
+    f = open("out\\package_mtk_linkit_smart_7688_index.json", "wb")
     f.write(jsonContent)
     f.close
     f = None
