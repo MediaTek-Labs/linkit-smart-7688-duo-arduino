@@ -1,6 +1,6 @@
 
 # LinkIt Smart 7688 Duo uses ATMega32U4, so change protocol from stk500 to arduino
-arduinoisp_smart7688.name=LinkIt Smart 7688 as ISP
+arduinoisp_smart7688.name=LinkIt Smart 7688 Duo as ISP
 arduinoisp_smart7688.communication=serial
 arduinoisp_smart7688.protocol=arduino
 arduinoisp_smart7688.speed=19200

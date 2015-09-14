@@ -1,5 +1,5 @@
 ::init value
-set version=0.1.1
+set version=0.1.2
 
 set setupname=mediatek_linkit_smart_7688_
 set sdk_zip_name=%setupname%%version%.zip
