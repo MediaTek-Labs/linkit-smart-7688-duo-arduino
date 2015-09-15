@@ -100,8 +100,8 @@ extern const uint8_t PROGMEM analog_pin_to_channel_PGM[];
 // New pins D14..D17 to map SPI port to digital pins
 //
 // MISO		D14		PB3					MISO,PCINT3
-// SCK		D15		PB1					SCK,PCINT1
-// MOSI		D16		PB2					MOSI,PCINT2
+// SCK		D15		PB2					SCK,PCINT1
+// MOSI		D16		PB1					MOSI,PCINT2
 // SS		D17		PB0					RXLED,SS/PCINT0
 //
 // TXLED			PD5
@@ -159,8 +159,8 @@ const uint8_t PROGMEM digital_pin_to_port_PGM[30] = {
 	PC, // D13 - PC7
 	
 	PB,	// D14 - MISO - PB3
-	PB,	// D15 - SCK - PB1
-	PB,	// D16 - MOSI - PB2
+	PB,	// D15 - MOSI - PB2
+	PB,	// D16 - SCK - PB1
 	PB,	// D17 - SS - PB0
 	
 	PF,	// D18 - A0 - PF0
@@ -196,8 +196,8 @@ const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[30] = {
 	_BV(7), // D13 - PC7
 	
 	_BV(3),	// D14 - MISO - PB3
-	_BV(1),	// D15 - SCK - PB1
-	_BV(2),	// D16 - MOSI - PB2
+	_BV(2),	// D15 - MOSI - PB2
+	_BV(1),	// D16 - SCK - PB1
 	_BV(0),	// D17 - SS - PB0
 	
 	_BV(0),	// D18 - A0 - PF0
