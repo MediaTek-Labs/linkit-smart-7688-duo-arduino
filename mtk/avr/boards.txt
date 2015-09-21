@@ -6,6 +6,7 @@ menu.cpu=Processor
 ##############################################################
 
 smart7688.name=LinkIt Smart 7688 Duo
+smart7688.upload.via_ssh=true
 smart7688.vid.0=0x0E8D
 smart7688.pid.0=0xAB00
 smart7688.vid.1=0x0E8D
