@@ -191,14 +191,14 @@ const USB_Descriptor_String_t LanguageString =
  */
 const USB_Descriptor_String_t ProductString =
 {
-	.Header                 = {.Size = USB_STRING_LEN(17), .Type = DTYPE_String},
-	.UnicodeString			= L"LinkIt Smart 7688"
+	.Header                 = {.Size = USB_STRING_LEN(22), .Type = DTYPE_String},
+	.UnicodeString			= L"LinkIt Smart 7688 Duo"
 };
 
 const USB_Descriptor_String_t ManufNameString = 
 {
-	.Header					= {.Size = USB_STRING_LEN(20), .Type = DTYPE_String},
-	.UnicodeString			= L"MediaTek Labs       "
+	.Header					= {.Size = USB_STRING_LEN(14), .Type = DTYPE_String},
+	.UnicodeString			= L"MediaTek Labs"
 };
 
 /** This function is called by the library when in device mode, and must be overridden (see LUFA library "USB Descriptors"
