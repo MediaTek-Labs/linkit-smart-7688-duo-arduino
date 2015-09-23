@@ -9,7 +9,7 @@
       },
       "platforms":[
             {
-               "name":"MediaTek LinkIt Smart Boards",
+               "name":"LinkIt Smart 7688 Duo",
                "architecture":"avr",
                "version": "$sdk_version",
                "category":"Contributed",
