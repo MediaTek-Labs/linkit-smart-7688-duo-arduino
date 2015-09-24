@@ -1,0 +1,3 @@
+[submodule "mtk/avr/bootloaders/caterina/LUFA-111009"]
+	path = mtk/avr/bootloaders/caterina/LUFA-111009
+	url = https://github.com/abcminiuser/lufa.git
