@@ -70,9 +70,11 @@ uint16_t RxLEDPulse = 0; // time remaining for Rx LED pulse
 #if F_CPU == 8000000 
 #define TIMEOUT_PERIOD	4000
 #define EXT_RESET_TIMEOUT_PERIOD	375
+#define RESPONSE_TIMEOUT_PERIOD 250
 #else
 #define TIMEOUT_PERIOD  8000
 #define EXT_RESET_TIMEOUT_PERIOD  750
+#define RESPONSE_TIMEOUT_PERIOD 500
 #endif
 
 // MAH 8/15/12- make this volatile, since we modify it in one place and read it in another, we want to make
@@ -588,7 +590,7 @@ void CDC_Task(void)
 		* leaving just a few hundred milliseconds so the 
 		* bootloder has time to respond and service any 
 		* subsequent requests */
-		Timeout = TIMEOUT_PERIOD - 500;
+		Timeout = TIMEOUT_PERIOD - RESPONSE_TIMEOUT_PERIOD;
 	
 		/* Re-enable RWW section - must be done here in case 
 		 * user has disabled verification on upload.  */
