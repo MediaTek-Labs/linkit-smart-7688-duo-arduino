@@ -10,4 +10,4 @@ Notes on building LinkIt Smart 7688 Duo ATMega32u4 Caterina bootloader:
 
 Notes on this bootloader:
 
-This booloader is modified from sparkfun Arduino boards. https://github.com/sparkfun/Arduino_Boards.git
+This booloader is modified from SparkFun Arduino boards. https://github.com/sparkfun/Arduino_Boards.git
