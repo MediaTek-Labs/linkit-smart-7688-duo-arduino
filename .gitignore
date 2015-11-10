@@ -1,2 +1,3 @@
 mtk/avr/bootloaders/caterina/build.bat
 *.hex
+*.DS_Store
