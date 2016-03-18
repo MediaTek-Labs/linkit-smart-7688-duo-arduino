@@ -191,13 +191,13 @@ const USB_Descriptor_String_t LanguageString =
  */
 const USB_Descriptor_String_t ProductString =
 {
-	.Header                 = {.Size = USB_STRING_LEN(22), .Type = DTYPE_String},
+	.Header                 = {.Size = USB_STRING_LEN(21), .Type = DTYPE_String},
 	.UnicodeString			= L"LinkIt Smart 7688 Duo"
 };
 
 const USB_Descriptor_String_t ManufNameString = 
 {
-	.Header					= {.Size = USB_STRING_LEN(14), .Type = DTYPE_String},
+	.Header					= {.Size = USB_STRING_LEN(13), .Type = DTYPE_String},
 	.UnicodeString			= L"MediaTek Labs"
 };
 
