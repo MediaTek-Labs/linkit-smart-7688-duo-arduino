@@ -58,7 +58,9 @@ VID = 0x0E8D
 # SparkFun Pro Micro 5V PID = 0x9205
 # "                " 3.3V PID = 0x9203
 # MaKey MaKey PID = 0x2B74
-PID = 0x9205
+# PID = 0x9205
+# LinkIt Smart 7688 Duo bootloader
+PID = 0xAB00
 
 # MCU name
 MCU = atmega32u4
@@ -85,7 +87,7 @@ BOARD = USER
 #     does not *change* the processor frequency - it should merely be updated to
 #     reflect the processor speed set externally so that the code can use accurate
 #     software delays.
-F_CPU = 16000000
+F_CPU = 8000000
 
 
 # Input clock frequency.
