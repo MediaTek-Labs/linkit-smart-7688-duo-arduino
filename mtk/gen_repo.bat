@@ -1,5 +1,5 @@
 :: !!! Set this version number before running this script !!!
-set version=0.1.5
+set version=0.1.7
 
 :: generate SDK zip file
 set setupname=mediatek_linkit_smart_7688_
