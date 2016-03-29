@@ -22,13 +22,25 @@ It should work without the need to install a driver and mounted as a serial devi
 
 ### How to Build the Release Package
 At this moment building the release pakcages requires:
- - Windows
+
+Requirements on Windows:
  - 7-zip
  - Python 2.7 with `requests` package installed
+ - git
  - Internet connection
 
-To build the release package
+Requirements on Linux:
+ - zip command
+ - Python 2.7 with `requests` package installed
+ - git
+ - Internet connection
+
+To build the release package on Windows
  - edit [`gen_repo.bat`](gen_repo.bat) and modify the version number
  - then execute `gen_repo.bat`
+
+To build the release package on Linux
+ - edit [`gen_repo.sh`](gen_repo.sh) and modify the version number
+ - then execute `bash gen_repo.sh`
 
 The build script will zip the `avr` supporting package and create a JSON description file, merging current JSON repository file from `download.labs.mediatek.com`.
