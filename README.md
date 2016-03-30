@@ -15,7 +15,7 @@ A Windows Serial COM port INF driver is located in: `{ARDUINO_SKETCHBOOK_LOCATIO
 Note that in Window 8 you'll need to disable the "Driver Signature Enforcement" and in Windows 10 there is no need to install INF drivers - Windows 10 should recognize the board as a general USB Serial port.
 
 ### Linux
-It should work without the need to install a driver and mounted as {need confirm}
+It should work without the need to install a driver and mounted as. But just like normal arduino boards, it needs some additional permission configurations. For more detailed information, see the article on [ArchWiki](https://wiki.archlinux.org/index.php/arduino#Accessing_serial) and [Debian Wiki](https://wiki.debian.org/Arduino) for different distributions.
 
 ### OS X
 It should work without the need to install a driver and mounted as a serial device under `/dev/tty.usbmodem1413`. The number `1413` can be different on each OS X machine.
