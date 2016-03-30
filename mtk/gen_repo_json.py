@@ -10,9 +10,9 @@ import json
 import subprocess
 import requests
 
-TEMP_JSON_PATH = 'out\\current_version.json'
+TEMP_JSON_PATH = 'out/current_version.json'
 CURRENT_JSON_URL = 'http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_test_index.json'
-MERGED_JSON_PATH = 'out\\package_mtk_linkit_smart_7688_index.json'
+MERGED_JSON_PATH = 'out/package_mtk_linkit_smart_7688_index.json'
 
 def get_current_version_content(new_entry):
     '''
@@ -61,7 +61,7 @@ def generate_new_json_entry():
     and return the resulting string
     '''
     arg_sdk_zip_name = sys.argv[2]
-    sdk_zip_path = "out\\" + arg_sdk_zip_name
+    sdk_zip_path = "out/" + arg_sdk_zip_name
 
     template_str = Template(open("package_linkit_index.json.template", "rb").read())
     file_check_sum = hashlib.sha256(open(sdk_zip_path, "rb").read()).hexdigest()
