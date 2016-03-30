@@ -271,6 +271,7 @@ const uint8_t PROGMEM analog_pin_to_channel_PGM[12] = {
 //                            pins are NOT connected to anything by default.
 #define SERIAL_PORT_MONITOR        Serial
 #define SERIAL_PORT_USBVIRTUAL     Serial
+#define SERIAL_PORT_LINUXBRIDGE    Serial1
 #define SERIAL_PORT_HARDWARE       Serial1
 #define SERIAL_PORT_HARDWARE_OPEN  Serial1
 
